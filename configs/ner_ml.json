@@ -1,0 +1,14 @@
+{
+    "CRF": {
+        "train_data_path": "data/MultiCoNER/multi_train.conll",
+        "validation_data_path": "data/MultiCoNER/multi_dev.conll",
+        "word_idx": 0,
+        "tasks": {
+            "ner": {
+                "task_type": "seq_bio",
+                "column_idx": 1
+            }
+        }
+    }
+}
+

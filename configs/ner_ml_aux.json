@@ -1,0 +1,28 @@
+{
+    "CRF": {
+        "train_data_path": "data/MultiCoNER/multi_train.conll",
+        "validation_data_path": "data/MultiCoNER/multi_dev.conll",
+        "word_idx": 0,
+        "tasks": {
+            "ner": {
+                "task_type": "seq_bio",
+                "column_idx": 1
+            }
+	     
+        }
+    },
+    
+    "AUX": {
+        "train_data_path": "data/en_ewt_da_de_danplus_train.conll",
+        "validation_data_path": "data/en_ewt_da_de_danplus_dev.conll",
+        "word_idx": 0,
+        "tasks": {
+            "nner": {
+                "task_type": "seq_bio",
+                "column_idx": 1
+            }
+
+        }
+    }
+}
+
